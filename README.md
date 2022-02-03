@@ -3,7 +3,9 @@
 this project demonstrates the implementation  of ApiGateway in microservices
 there are 3 services
 1>patient-service
+
 2>doctor-service
+
 3>disease-service
 
 apigateway- service
@@ -18,11 +20,13 @@ apigateway- service
       
       
       after implementing api gateway service, if we navigate the url http://localhost:8100/doctor-service/doctors   -> o/p->list of doctors
+      
       http://localhost:8100/patient-service/patients   ->o/p->list of patients
+      
       http://localhost:8100/disease-service/diseases  ->o/p->list of diseases
       
       
-      we have used spring boot actuator get list of endpoints
+      we have used spring boot actuator  to get list of endpoints
       
       @EnableZuulProxy provides 2endpoints
       1>Routes
