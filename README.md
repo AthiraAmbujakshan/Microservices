@@ -37,3 +37,18 @@ apigateway- service
       2>filters
       http://localhost:8100/actuators/routes
       http://localhost:8100/actuators/filters
+      
+      
+      
+      
+     ------------------------------------------------------hello-world-ssl project------------------------------------------------------------
+                                            
+              implementing ssl (secure https protocol) in microservice
+              
+              
+              generate keystore certificate
+              
+              keytool -genkey -alias https-example -storetype JKS -keyalg RSA -Keysize 2048 -validity  365 -keystore https-example.jks
+ 
+                password:changeit
+                paste the jks file to src/main/resource folder
