@@ -2,6 +2,7 @@
                    ms-apigateway-example 
 this project demonstrates the implementation  of ApiGateway in microservices
 there are 3 services
+
 1>patient-service
 
 2>doctor-service
@@ -9,6 +10,7 @@ there are 3 services
 3>disease-service
 
 apigateway- service
+
   the request coming as tokens from front end are routed to  respectivs ms
   
   doctor-service:
@@ -19,7 +21,9 @@ apigateway- service
       url: http://localhost:8083
       
       
-      after implementing api gateway service, if we navigate the url http://localhost:8100/doctor-service/doctors   -> o/p->list of doctors
+      after implementing api gateway service, if we navigate the url 
+      
+      http://localhost:8100/doctor-service/doctors   -> o/p->list of doctors
       
       http://localhost:8100/patient-service/patients   ->o/p->list of patients
       
