@@ -1,0 +1,14 @@
+data: helloworld
+
+my:
+  list:
+     values: one,two,three
+   
+dbValues: "{connectionString:'http://localhost',userName:'foo',password:'pass'}"
+
+db:
+  connection: test-connection-string
+  host: 127.0.01
+  port: 8080
+  
+management.endpoints.web.exposure.include: "*"
